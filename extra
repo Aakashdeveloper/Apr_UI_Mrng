@@ -8,3 +8,10 @@ inline element
 
 https://github.com/Aakashdeveloper 
 https://github.com/Aakashdeveloper/Apr_UI_Mrng 
+
+List
+Ordered List   ol
+> With type we can decide its number, letter or roman
+> With Start we can give starting point
+UnOrdered List ul
+Descriptive List dl
