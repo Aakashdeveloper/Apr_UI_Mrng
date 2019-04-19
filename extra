@@ -15,3 +15,10 @@ Ordered List   ol
 > With Start we can give starting point
 UnOrdered List ul
 Descriptive List dl
+
+
+value = solid txt you have remove to enter new
+placeholder = light txt remove automatically 
+
+
+firstName=John&LastName=Bill&email=a%40a.com&password=1234
