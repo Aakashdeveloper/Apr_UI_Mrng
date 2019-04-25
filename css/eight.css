@@ -1,0 +1,40 @@
+/* Css start for main div */
+.sameline{
+    height:250px;
+    width: 300px;
+    background:thistle;
+    float: left;
+    /*margin: 10px;*/
+    margin-left: 10px;
+    overflow: scroll;
+}
+
+h2{
+    color:blueviolet;
+}
+
+.sameline h2{
+    color: hotpink;
+    text-align: center;
+}
+
+.sameline p{
+    padding: 10px;
+}
+
+.topmargin{
+    margin-top:10px;
+    background: #8e9f87;
+    color: #fff;
+    overflow: hidden;
+}
+
+.topmargin h2{
+    color: #fff
+}
+
+.main_div{
+    margin-left:80px;
+}
+
+/* Css end for main div */

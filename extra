@@ -22,3 +22,12 @@ placeholder = light txt remove automatically
 
 
 firstName=John&LastName=Bill&email=a%40a.com&password=1234
+
+inline CSS    has high priorty as compare to external
+external CSS this is preffred as of clean structure 
+style tag CSS
+
+// Target element
+> Tag Name 
+> Id   #
+> Class  .
