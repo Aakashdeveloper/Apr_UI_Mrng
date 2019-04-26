@@ -7,6 +7,10 @@
     /*margin: 10px;*/
     margin-left: 10px;
     overflow: scroll;
+    border: 5px double teal;
+    box-shadow: 5px 5px gray;
+    opacity: .9;
+    border-radius:10%;
 }
 
 h2{
@@ -27,6 +31,7 @@ h2{
     background: #8e9f87;
     color: #fff;
     overflow: hidden;
+    border: 5px groove yellow
 }
 
 .topmargin h2{
@@ -36,5 +41,23 @@ h2{
 .main_div{
     margin-left:80px;
 }
+.circletag{
+    border-radius:50%;
+    overflow:scroll;
+    overflow-x:scroll;
+    
+}
+.sumup{
+    width:90%;
+    background: #a678d0;
+    border:5px dotted maroon
 
-/* Css end for main div */
+}
+
+/* Css end for main div 
+solid
+dotted
+dashed
+double
+groove
+*/

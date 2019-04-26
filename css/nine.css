@@ -1,0 +1,26 @@
+body{
+    /*background-image: linear-gradient(to left,green,skyblue, rgb(235, 212, 135))*/
+    background-image: radial-gradient(green,skyblue, rgb(235, 212, 135))
+ }
+
+ul{
+
+    list-style-type: none;
+    background-color:gray;
+    overflow: hidden;
+    padding: 10px
+}
+li{
+    float: left;
+}
+
+li a{
+    text-decoration: none;
+    color:#fff;
+    text-align: center;
+    padding: 16px 18px;
+    font-size:20px;
+}
+
+
+
