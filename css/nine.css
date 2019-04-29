@@ -22,5 +22,8 @@ li a{
     font-size:20px;
 }
 
+li:hover a{
+    background-color:black;
+}
 
 

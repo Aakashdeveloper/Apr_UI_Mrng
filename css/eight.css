@@ -54,6 +54,20 @@ h2{
 
 }
 
+@media screen and (min-width:400px){
+    body{
+        background-color: lime;
+    }
+    
+}
+
+@media screen and (min-width:800px){
+    body{
+        background-color: yellow;
+    }
+    
+}
+
 /* Css end for main div 
 solid
 dotted

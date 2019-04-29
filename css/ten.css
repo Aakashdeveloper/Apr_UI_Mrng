@@ -1,0 +1,50 @@
+h1{
+    color:darkolivegreen
+}
+
+h1:hover {
+    color:#ff69b4;
+    font-size:50px;
+}
+
+.bpimage{
+    height: 300px;
+    width: 200px;
+    margin:20%;
+}
+
+.main span{
+    color: #fff;
+    visibility: hidden
+}
+
+.main:hover span{ 
+    color: #fff;
+    visibility: visible;
+}
+
+
+.main{
+    height: 300px;
+    width:200px;
+}
+
+
+.bpimage:hover{
+    /*transform: rotate(-50deg);
+    transform: translate(50px,50px);*/
+    transform: skewY(20deg)
+}
+
+.main{
+    background-image: url('../html/images/bp.jpg')
+}
+
+/*
+.bpimage:hover{
+    transform: scale(2,2);
+    -ms-transform: scale(2,2); /* for IE 
+    -webkit-transform: scale(2,2); for safari
+    -moz-transform: scale(2,2) /*for mozila
+}
+*/
