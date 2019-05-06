@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <br/>
+            <button class="btn btn-info" data-toggle="modal"
+            data-target="#employeeForm">More Details</button>
+
+            <!--ModelPAge-->
+            <div id="employeeForm" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                            <h3 class="modal-title">Form Details</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                    Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's 
+                                    standard dummy text ever since the 1500s, 
+                                    when an unknown printer took a galley of 
+                                    type and scrambled it to make a type specimen 
+                                    book. It has survived not only five centuries,
+                                    but also the leap into electronic typesetting
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger"
+                                data-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Model page end-->
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    Employee Form
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <input type="text" name="fname" id="fname"
+                             class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="lname" id="lname"
+                            class="form-control"/>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="form-group">
+                                <input type="text" name="email" id="email"
+                                        class="form-control" placeholder="email"/>
+                            </div> 
+                        </div>
+                        <div class="col-md-2">
+                                <label for="pwd">Password</label>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="form-group">
+                                    <input type="password" name="pwd" id="pwd"
+                                            class="form-control" placeholder="pwd"/>
+                            </div> 
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="gender">Female
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="gender">Male
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">FullTime
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>Commet</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <div>
+                            <label class="radio-inline">
+                                <input type="radio" name="color">Red
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="color">Yellow
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="color">Green
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-user"></i>
+                            </span>
+                            <input id="email" type="email" class="form-control"
+                                placeholder="email"/>
+                        </div>
+                        <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="glyphicon glyphicon-lock"></i>
+                                </span>
+                                <input id="password" type="email" class="form-control"
+                                    placeholder="password"/>
+                        </div>
+                        <div class="input-group">
+                                <span class="input-group-addon">
+                                    Role
+                                </span>
+                                <input id="password" type="email" class="form-control"
+                                    placeholder="role"/>
+                        </div>
+                        <br/>
+                        <button class="btn btn-success" type="submit">Submit</button>
+                        <button class="btn btn-danger" type="submit">Reset</button>
+                        
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+        
+    </body>
+</html>
