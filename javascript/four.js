@@ -21,9 +21,24 @@ if (a>10){
 else {
     console.log('not okkk')
 }
+/////////////
+if (a>10 || ){}
+if (b>10){}
+if (name=="a"){}
 
 
 Take input from the user 
 if name is your name you will say allow access 
 if myname don't allow access
 else i dont know you
+
+switch(a){
+    case 'hi':
+        console.log('i am in first case')
+        break;
+    case 'bye':
+        console.log('i am in second case')
+        break;
+    default:
+        console.log('you are in default case')
+}
