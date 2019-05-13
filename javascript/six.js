@@ -17,3 +17,12 @@ take one array with username
 than take input from the user 
 if name is present in array than allow access 
 if not than push that name in array
+
+var mynum = [1,2,3,4,5,6,7,8,9,10,11]
+for(i=0;i<mynum.length;i++){
+    if(i%2==0){
+        console.log('even= '+i)
+    }else {
+        console.log('odd= '+i)
+    }
+}

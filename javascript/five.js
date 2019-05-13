@@ -66,3 +66,17 @@ city.splice(4,2,"Innsburg")
 (2) ["Venice", "Mumbai"]
 city
 (7) ["London", "NewYork", "davos", "zurich", "Innsburg", "Amsterdam", "Helsinki"]
+var city = ["London", "NewYork", "davos", "zurich", "Innsburg", "Amsterdam", "Helsinki"]
+undefined
+city.sort()
+(7) ["Amsterdam", "Helsinki", "Innsburg", "London", "NewYork", "davos", "zurich"]
+city.indexOf("london")
+-1
+city.indexOf("London")
+3
+city.indexOf("davos")
+5
+city.indexOf("venice")
+-1
+city.indexOf("paris")
+-1
