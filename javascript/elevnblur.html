@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Blur Event</title>
+        <script type="text/javascript">
+        const nameToUpper = () => {
+            var username = document.getElementById('fname').value;
+            username = username.toUpperCase();
+            document.querySelector('#fname').value = username;
+        }
+        </script>
+    </head>
+    <body>
+        <label>FirstName</label>
+        <input type="text" id="fname" onblur="nameToUpper()"/>
+    </body>
+</html>

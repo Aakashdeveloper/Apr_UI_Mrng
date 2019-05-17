@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>User Form</title>
+        <style>
+            p{
+                color:red;
+                font-weight: bold
+            }
+        </style>
+        <script>
+            function validatePassword(){
+                let pass = document.getElementsByClassName('pwd')[0].value;
+                let output;
+                if(pass.length<1){
+                    output = "Please Enter Password"
+                }else{
+                    if(pass.length<8){
+                        output="min length is 8"
+                    }else{
+                        output = " "
+                    }
+                }
+
+                document.getElementById('err1').innerHTML = output
+
+            }
+            const checkemail = () => {
+                var email = document.getElementById('email').value;
+                var cemail = document.getElementById('cemail').value;
+                let outerr;
+                if(email === cemail){
+                    outerr = " "
+                }else {
+                    outerr=" Email does not match"
+                }
+                document.getElementById('err1').innerHTML=outerr
+            }
+        </script>
+    </head>
+    <body>
+       
+        <label>Email</label>
+        <input type="email" id='email'/>
+        <label>Confirm Email</label>
+        <input type="email" id='cemail' onblur="checkemail()"/>
+        <p id="err"></p>
+        <label>PassWord</label>
+        <input type="password" class='pwd' onblur="validatePassword()"/>
+        <p id="err1"></p>
+    </body>
+</html>

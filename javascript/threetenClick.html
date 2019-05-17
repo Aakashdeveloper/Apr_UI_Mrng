@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>On Click</title>
+    </head>
+    <body>
+        <form>
+            <label>Email</label>
+            <input type="text" id="email" name="email"/>
+            <br/><br/>
+            <label>Password</label>
+            <input type="password" id="pwd" name="pwd"/>
+            <br/><br/>
+            <button typ="submit" onclick="validate()">Submit</button>
+            <button typ="reset">Reset</button>
+        </form>
+        <script>
+            function validate(){
+                var email = document.getElementById('email').value;
+                var pass = document.getElementById('pwd').value;
+                if(email == "a@a.com" && pass == 1234 ){
+                    alert('Valid User');
+                    window.location.href="http://www.aakashhanda.me/"
+                } else {
+                    alert("Enter Correct email & password")
+                    window.location.href="http://www.aakashhanda.me/"
+                }
+            }
+        </script>
+    </body>
+</html>
