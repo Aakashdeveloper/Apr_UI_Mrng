@@ -1,3 +1,4 @@
+// literal notation
 let john = {
     firstname: 'John',
     lastname: 'Andy',
@@ -27,3 +28,27 @@ delete john.job
 true
 john
 {firstname: "kevw", lastname: "Andy", city: "New York", timezone: "PST"}
+
+
+let country = [
+    {
+        name:'london',
+        pop:845784397,
+        climate:'modrate'
+    },
+    {
+        name:'Knstford',
+        pop:84579,
+        climate:'cold'
+    }
+]
+undefined
+Object.keys(country)
+(2) ["0", "1"]0: "0"1: "1"length: 2__proto__: Array(0)
+let london = {name:'london',
+        pop:845784397,
+        climate:'modrate'
+    }
+undefined
+Object.keys(london)
+(3) ["name", "pop", "climate"]
