@@ -31,3 +31,17 @@ style tag CSS
 > Tag Name 
 > Id   #
 > Class  .
+
+
+/************
+setup angular
+*****************/
+
+win => run cmd as admin=>  npm install -g @angular/cli 
+mac => sudo npm install -g @angular/cli 
+
+> Go inside the folder with cmd
+> ng new firstapp
+> cd firstapp
+> npm start
+> localhost:4200
